@@ -1,4 +1,4 @@
-import img_01 from "./images/img_01.jpg";
+import img01 from "./images/img_01.jpg";
 import img_02 from "./images/img_02.jpg";
 import img_03 from "./images/img_03.jpg";
 import img_04 from "./images/img_04.jpg";
@@ -22,7 +22,7 @@ import img_20 from "./images/img_20.jpg";
 const slides = [
   {
     id: 1,
-    img: img_01,
+    img: img01,
     description: `The Union of Soviet Socialist Republics (USSR) is officially established on December 30. 
 The Treaty, along with the Declaration of the Creation of the USSR, was approved on this date by a conference of delegations from the Russian SFSR, the Transcaucasian SFSR, the Ukrainian SSR, and the Byelorussian SSR.`,
     title: "Formation_of_the_USSR",

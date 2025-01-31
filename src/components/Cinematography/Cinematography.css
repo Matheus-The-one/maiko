@@ -1,10 +1,5 @@
 /* Define the SovietStyle font */
-@font-face {
-    font-family: 'SovietStyle';
-    src: url('assets/fonts/SovietStyle-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /* Define the Soviet2 font */
 @font-face {
@@ -172,7 +167,8 @@ img {
     margin: 5px 0;
     font-size: 1.5rem;
     text-align: left;
-    color: var(--tertiary); /* You can choose another color */
+    color: var(--tertiary);
+    /* You can choose another color */
 }
 
 .swiper-slide button {
