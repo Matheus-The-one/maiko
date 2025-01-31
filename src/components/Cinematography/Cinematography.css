@@ -4,7 +4,7 @@
 /* Define the Soviet2 font */
 @font-face {
     font-family: 'Soviet2';
-    src: url('../assets/fonts/Soviet2.ttf') format('truetype');
+    src: url('/assets/fonts/Soviet2.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
