@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'SovietStyle';
+  src: url('assets/fonts/SovietStyle-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Styling for the container */
+.history-info {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Styling the image */
+.history-image {
+  position: relative;
+  top: -100px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  /* Ensures the image covers the area without distorting */
+  object-position: center;
+  /* Centers the image */
+  filter: brightness(45%) blur(2px);
+  /* Combined filter */
+}
+
+/* Overlay for the text */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  /* Adjust vertical position */
+  left: 5%;
+  transform: translateY(-50%);
+  color: #b30406;
+  /* Red text */
+  font-family: 'SovietStyle', sans-serif;
+  font-size: 100vw !important;
+  /* Scalable font size */
+  visibility: visible;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Optional shadow for readability */
+  line-height: 1;
+  /* Prevents line-height issues */
+  z-index: 10;
+}
+
+
+/* Styling the Wikipedia content */
+.wiki-content {
+  position: relative;
+  left: -1000px;
+  width: 1000px;
+  margin: 40px auto;
+  /* Center content with space above */
+  padding: 20px;
+  /* Add padding for spacing */
+  background-color: #202020;
+  /* Dark background for contrast */
+  border-left: 5px solid #b30406;
+  /* Red accent */
+  border-radius: 8px;
+  /* Rounded corners */
+  color: #ddd;
+  /* Light text color */
+  text-align: justify;
+}
+
+.wiki-content p {
+  font-size: 2rem;
+  /* Single definition */
+  line-height: 1.6;
+  /* Line spacing */
+  color: #ccc;
+  /* Slightly lighter text */
+}

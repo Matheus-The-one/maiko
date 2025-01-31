@@ -1,0 +1,150 @@
+/* Base styles */
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+@font-face {
+  font-family: 'SovietStyle';
+  src: url('assets/fonts/SovietStyle-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Soviet2';
+  src: url('../assets/fonts/Soviet2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.commentSection {
+  width: 95%;
+  margin:  auto;
+  padding: 20px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background-color: #202020; /* Dark background for modern look */
+  color: #ffffff; /* White text for contrast */
+  font-family: 'SovietStyle', sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+}
+
+/* Title styling */
+.commentSection .titleBox {
+  text-align: center;
+  top: -100px;
+  margin-bottom: 20px;
+}
+
+.commentSection .titleBox label {
+  color: #b30406; /* Red color for Soviet theme */
+  font-family: 'SovietStyle', sans-serif;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Comment box styles */
+.commentSection .commentBox {
+  border-top: 1px solid #444;
+  padding: 10px 0;
+}
+
+.commentSection .commentBox .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentSection .commentBox input,
+.commentSection .actionBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #303030;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'SovietStyle', sans-serif;
+}
+
+.commentSection .actionBox textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* Comment list styles */
+.commentSection .commentList {
+  list-style: none;
+  padding: 0;
+  max-height: 300px; /* Increased height for more visible comments */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.commentSection .commentList li {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.commentSection .commenterImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.commentSection .commenterImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.commentSection .commentText p {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.commentSection .subText {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
+/* Action box for adding comments */
+.commentSection .actionBox {
+  border-top: 1px solid #444;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.commentSection .btn-default {
+  background-color: #b30406;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'SovietStyle', sans-serif;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.commentSection .btn-default:hover {
+  background-color: #d40406;
+}
+
+/* Scrollbar styling */
+.commentSection .commentList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.commentSection .commentList::-webkit-scrollbar-thumb {
+  background-color: #b30406;
+  border-radius: 10px;
+}
+
+.commentSection .commentList::-webkit-scrollbar-track {
+  background-color: #303030;
+}

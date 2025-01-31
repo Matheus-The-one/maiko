@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SovietStyle';  /* Name the font */
+    src: url('../../assets/fonts/SovietStyle-Regular.ttf') format('truetype');  /* Specify the path to your font file */
+    font-weight: normal;  /* Font weight */
+    font-style: normal;   /* Font style */
+  }
+
+  .warningSign{
+    font-family: 'SovietStyle', sans-serif; /* Apply SovietStyle font */
+    color: var(--primary) ;
+    margin: 2rem 1.5rem;
+    font-size: 10rem;
+    text-align: center;
+  }
+  .warning {
+    font-family: 'SovietStyle', sans-serif; /* Apply SovietStyle font */
+    color: #dfd9c5 ;
+    margin: 2rem 1.5rem;
+    font-size: 5rem;
+    text-align: center;
+  }

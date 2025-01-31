@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'SovietStyle'; 
+    src: url('assets/fonts/SovietStyle-Regular.ttf') format('truetype');  /* Specify the path to your font file */
+    font-weight: normal; 
+    font-style: normal;   
+  }
+
+  .introduction {
+    font-family: 'SovietStyle', sans-serif;
+    color: #dfd9c5;
+    margin: 5rem auto;
+    font-size: 2.7rem;
+    text-align:justify;
+    line-height: 1.2; 
+    max-width: 95%;
+  }
+  
